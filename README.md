@@ -1,172 +1,66 @@
-<div align="center">
+# Aneesh Prabu - Cyber Security Portfolio
 
-# 💼 Abhijeet's Portfolio Website
-
-</div>
-
-A modern, responsive personal portfolio website showcasing my work as a full-stack web developer. Built with HTML, CSS, JavaScript, Bootstrap, GSAP, and integrated with a stunning animated particle background.
-
----
+Welcome to my personal portfolio website! This project showcases my journey, skills, and projects in the field of Cyber Security and Software Development. It features a modern, responsive design with interactive elements and smooth animations.
 
 ## 🚀 Features
 
-### ✨ **Core Features**
-- Responsive design for all screen sizes  
-- Interactive hamburger menu for mobile view  
-- Hero section with animated name using GSAP  
-- Snowfall particle background using [particles.js](http://vincentgarreau.com/particles.js/#snow)  
-- Stylish "View Projects" button with neon glow effect  
-- Smooth scroll and clean layout  
-- Custom cursor implementation
-- Animated download button for resume
-
-### 📧 **Contact Form**
-- Functional contact form with Formspree integration
-- Form validation and user feedback
-- Loading states and success/error messages
-- Professional styling with hover effects
-- Contact information display with icons
-
-### ⚡ **Performance Optimizations**
-- Lazy loading for images
-- Reduced motion support for accessibility
-- Optimized animations with `will-change` and `contain`
-- Service Worker for offline functionality
-- PWA (Progressive Web App) support
-- Critical CSS optimization
-- Font loading optimization
-
-### 🐙 **GitHub Integration**
-- Live GitHub statistics (repos, stars, followers, commits)
-- Recent activity feed with event types
-- Most used programming languages display
-- Real-time data from GitHub API
-- Fallback data for offline viewing
-
-### 🎨 **Enhanced UI/UX**
-- Dark theme with custom color scheme
-- Smooth animations and transitions
-- Interactive elements with hover effects
-- Accessibility improvements
-- Print-friendly styles
-
----
+-   **Hero Section**: Dynamic introduction with a particle background and typing effect.
+-   **About Me**: A brief overview of my background, education, and interests.
+-   **My Journey**: A timeline of my professional experiences and leadership roles.
+-   **Skills / Tech Stack**: A comprehensive list of my technical skills, categorized into:
+    -   Programming (Python, Java, C++, SQL, JS, etc.)
+    -   Security (Linux, Burp Suite, Wireshark, Nmap, etc.)
+    -   Cloud/DevOps (Git, GitHub, AWS, Docker, Azure, GCP)
+    -   IDE/Tools (VS Code, Google Antigravity, Arduino IDE)
+-   **Projects**: Showcase of my key projects with descriptions, tech stacks, and links to code/live demos.
+    -   *Bridge USB Physical Security*
+    -   *Portfolio Website* (This project!)
+    -   *Intruder Detection System*
+-   **Deliberation**: A blog-style section for sharing thoughts, reflections, and insights on technology and life.
+-   **Contact**: A fully functional contact form and social media links (GitHub, LinkedIn, Email).
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Semantic markup with accessibility features
-- **CSS3** – Custom styling + Bootstrap 5 + Tailwind CSS
-- **JavaScript** – Core interactivity, animations, and API integrations
-- **GSAP** – Advanced animations and scroll triggers
-- **Particles.js** – Interactive particle backgrounds
-- **Formspree** – Contact form backend
-- **GitHub API** – Live coding activity integration
-- **Service Worker** – Offline functionality and caching
+This portfolio is built using the following technologies:
 
----
+-   **Frontend Structure**: HTML5
+-   **Styling**: CSS3, Tailwind CSS (via CDN), Bootstrap 5 (via CDN)
+-   **Scripting**: JavaScript (ES6+)
+-   **Animations & Effects**:
+    -   [GSAP](https://greensock.com/gsap/) (GreenSock Animation Platform) for smooth animations and scroll triggers.
+    -   `particles.js` for the hero section background.
+    -   FontAwesome for icons.
+    -   Devicon for tech stack icons.
 
-## 📱 PWA Features
-
-- **Installable** – Can be installed as a native app
-- **Offline Support** – Works without internet connection
-- **Fast Loading** – Optimized caching and performance
-- **App-like Experience** – Full-screen mode and native feel
-
----
-
-## 📸 Live Preview
-
-👉 [Live Demo](https://abhijeetbhale.github.io/Portfolio/)
-
-## 📸 Screenshot
-
-![Portfolio Website](https://github.com/abhijeetBhale/Portfolio/blob/4153aac777d27ad5cc2aaa4ded9a3b347b8c8d9e/assets/portfolio-ss.png)
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/abhijeetBhale/Portfolio.git
-   cd Portfolio
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Or simply open index.html in your browser
-   ```
-
-3. **Customize**
-   - Update personal information in `index.html`
-   - Modify colors in `styles.css`
-   - Add your own projects and content
-   - Update GitHub username in `script.js`
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 Portfolio/
+├── assets/             # Images, icons, and the resume PDF
+├── css/                # (External styles if separated, currently in root/styles.css)
+├── js/                 # (External scripts if separated, currently in root/script.js)
 ├── index.html          # Main HTML file
-├── styles.css          # Custom styles and animations
-├── script.js           # JavaScript functionality
-├── manifest.json       # PWA manifest
-├── sw.js              # Service Worker
-├── assets/            # Images and media files
-└── README.md          # Project documentation
+├── styles.css          # Custom CSS styles
+├── script.js           # Main JavaScript file for logic and animations
+└── README.md           # Project documentation
 ```
 
----
+## 💻 How to Run
 
-## 🔧 Configuration
+Since this is a static website, you can run it easily:
 
-### Contact Form
-Update the Formspree endpoint in `script.js`:
-```javascript
-const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-```
+1.  **Clone or Download** the repository.
+2.  Navigate to the `Portfolio` folder.
+3.  Open `index.html` in your favorite web browser (Chrome, Firefox, Edge, etc.).
+    -   *Tip*: for the best development experience, use "Live Server" extension in VS Code.
 
-### GitHub Integration
-Update your GitHub username in `script.js`:
-```javascript
-const username = 'YOUR_GITHUB_USERNAME';
-```
+## 📬 Contact
 
----
+Feel free to reach out to me for collaborations, project inquiries, or just to say hi!
 
-## 📈 Performance
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
+-   **Email**: [aneeshprabu2510@gmail.com](mailto:aneeshprabu2510@gmail.com)
+-   **LinkedIn**: [Aneesh Prabu](https://www.linkedin.com/in/aneeshprabu2510/)
+-   **GitHub**: [Aneesh2510](https://github.com/Aneesh2510)
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 📞 Contact
-
-- **Email**: abhijeetbhale7@gmail.com
-- **LinkedIn**: [Abhijeet Bhale](https://www.linkedin.com/in/abhijeetbhale7)
-- **GitHub**: [@abhijeetBhale](https://github.com/abhijeetBhale)
-- **Instagram**: [@isocyanideisgood](https://www.instagram.com/isocyanideisgood)
-
+*© 2025 Aneesh Prabu. All Rights Reserved.*
