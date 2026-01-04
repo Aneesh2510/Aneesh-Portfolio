@@ -1,6 +1,6 @@
 # Aneesh Prabu - Cyber Security Portfolio
 
-Welcome to my personal portfolio website! This project showcases my journey, skills, and projects in the field of Cyber Security and Software Development. It features a modern, responsive design with interactive elements and smooth animations.
+Welcome to my personal portfolio website! This project showcases my journey, skills, and projects in the field of Cyber Security and Software Development. It features a modern, responsive design with interactive elements and smooth animations and i sincerly thank Mr.Abhijeet Bhale where i got inspo from his portfolio https://abhijeetbhale.github.io/Portfolio/
 
 ## 🚀 Features
 
