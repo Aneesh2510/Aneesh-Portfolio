@@ -18,15 +18,15 @@
 <body>
   <!-- Scroll Progress Bar -->
   <div id="scroll-bar"
-    class="fixed right-6 top-1/2 transform -translate-y-1/2 h-64 w-1.5 bg-gray-700 rounded-full z-50 hidden sm:block">
+    class="fixed right-6 top-1/2 transform -translate-y-1/2 h-64 w-1.5 bg-gray-700 rounded-full z-50 hidden md:block">
     <div id="scroll-indicator"
       class="bg-[#1DCD9F] h-0 w-full rounded-full transition-all duration-300 ease-out shadow-md shadow-[#1DCD9F]">
     </div>
   </div>
   <!-- Fixed Download Resume Navigation Button -->
   <a href="./assets/Aneesh_Prabu_Resume_.pdf"
-    class="fixed top-6 right-6 z-50 group hover:scale-105 transition-transform duration-300" target="_blank"
-    download="Aneesh_Prabu_Resume_.pdf">
+    class="fixed top-6 right-6 z-50 group hover:scale-105 transition-transform duration-300 hidden md:block"
+    target="_blank" download="Aneesh_Prabu_Resume_.pdf">
     <div
       class="flex items-center gap-2 bg-black/80 backdrop-blur-md border border-[#1DCD9F] px-4 py-2 rounded-full shadow-lg group-hover:shadow-[#1DCD9F]/50">
       <span class="text-[#1DCD9F] font-bold text-sm tracking-widest">RESUME</span>
@@ -54,7 +54,7 @@
 
     <!-- Hero Content -->
     <div class="container text-center position-relative" style="z-index: 1">
-      <h1 class="display-4 fw-bold">
+      <h1 class="display-4 fw-bold text-3xl md:text-5xl lg:text-7xl">
         <span class="text-white me-2">Hi I'm-</span>
         <button class="button" data-text="Aneesh Prabu">
           <span class="actual-text">&nbsp;Aneesh Prabu&nbsp;</span>
@@ -70,7 +70,7 @@
   </section>
 
   <!-- About Me Section -->
-  <section id="about" class="bg-black text-white py-20 px-6">
+  <section id="about" class="bg-black text-white py-10 md:py-20 px-6">
     <div
       class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-10 px-4">
       <!-- Profile Image -->
@@ -242,7 +242,7 @@
           <div class="category-label cursor-pointer hover:text-white transition"
             onclick="document.querySelector('#frontend').scrollIntoView({behavior: 'smooth'})">PROGRAMMING</div>
         </div>
-        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 reveal-section">
+        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 reveal-section">
           <div class="flex items-center gap-2"><img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="w-6 h-6"><span
               class="text-lg">Python</span></div>
@@ -278,7 +278,7 @@
           <div class="category-label cursor-pointer hover:text-white transition"
             onclick="document.querySelector('#backend').scrollIntoView({behavior: 'smooth'})">SECURITY</div>
         </div>
-        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 reveal-section">
+        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 reveal-section">
           <div class="flex items-center gap-2"><img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" class="w-6 h-6"><span
               class="text-lg">Linux</span></div>
@@ -310,7 +310,7 @@
           <div class="category-label cursor-pointer hover:text-white transition"
             onclick="document.querySelector('#tools').scrollIntoView({behavior: 'smooth'})">CLOUD/DEVOPS</div>
         </div>
-        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 reveal-section">
+        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 reveal-section">
           <div class="flex items-center gap-2"><img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="w-6 h-6"><span
               class="text-lg">Git</span></div>
@@ -338,7 +338,7 @@
           <div class="category-label cursor-pointer hover:text-white transition"
             onclick="document.querySelector('#ide').scrollIntoView({behavior: 'smooth'})">IDE / TOOLS</div>
         </div>
-        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 reveal-section">
+        <div class="w-full md:w-4/5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6 reveal-section">
           <div class="flex items-center gap-2"><img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" class="w-6 h-6"><span
               class="text-lg">VS Code</span></div>
@@ -479,7 +479,7 @@
         <p class="text-gray-300 text-lg">Some of the things I've built.</p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 max-w-6xl mx-auto">
         <!-- SINGLE PROJECT CARD -->
         <div
           class="project-card bg-white text-black shadow-xl rounded-2xl overflow-hidden transform hover:scale-[1.02] transition-all duration-300">
@@ -621,7 +621,7 @@
         <p class="text-gray-400 text-lg">Let's discuss your next project or just say hello!</p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <!-- Contact Info -->
         <div class="space-y-6">
           <div>
@@ -666,7 +666,7 @@
         <!-- Contact Form -->
         <div class="bg-white text-black rounded-2xl p-8 shadow-xl">
           <form id="contactForm" class="space-y-6">
-            <div class="grid md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label for="firstName" class="block text-sm font-medium mb-2">First Name <span
                     style="color: red">*</span></label>
@@ -775,7 +775,7 @@
     </div>
   </section>
   <a href="mailto:aneeshprabu2510@gmail.com?subject=Let's Connect&body=Hi Aneesh,%0D%0A%0D%0AI wanted to get in touch with you..."
-    class="fixed-email" title="Mail Me">
+    class="fixed-email hidden md:block" title="Mail Me">
     aneeshprabu2510@gmail.com
   </a>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>

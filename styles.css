@@ -939,3 +939,6 @@ html {
     padding: 0.375rem;
   }
 }
+/* Responsive Hero Text */
+@media (max-width: 768px) { .button { --fs-size: 1.5em; } }
+@media (max-width: 480px) { .button { --fs-size: 1.1em; } }
